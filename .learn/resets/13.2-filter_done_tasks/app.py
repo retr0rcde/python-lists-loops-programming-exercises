@@ -10,12 +10,5 @@ tasks = [
 ]
 
 
-def filter_done_tasks(task):
-    return task["done"] == True
-
-
-completed_tasks = list(filter(filter_done_tasks, tasks))
-
-print(completed_tasks)
-
+# Your code here
 

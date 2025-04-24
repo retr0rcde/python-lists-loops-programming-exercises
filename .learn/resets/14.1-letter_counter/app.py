@@ -2,17 +2,7 @@ par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget bib
 
 counts = {}
 
-par = par.lower().replace(" ", "")
-
-
-for letter in par:
-    if letter in counts:
-        counts[letter] += 1
-    else:
-        counts[letter] = 1
-
-
-        
+# Your code here
 
 
 print(counts)
